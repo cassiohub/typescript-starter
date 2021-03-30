@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES5",
+    "module": "CommonJS",
+    "lib": ["ES2019"],
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "composite": true,
+    "removeComments": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSourceMap": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
+}
